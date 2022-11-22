@@ -1,7 +1,0 @@
-#!/bin/bash
-
-set -a
-. env.local
-set +a
-
-PYTHONPATH=$(pwd) python squint/$1.py "${@: 2}"
